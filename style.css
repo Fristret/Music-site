@@ -1,0 +1,332 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+}
+
+.box{
+    max-width: 1440px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-height: 1024px;
+    overflow: hidden;
+}
+
+.nav{    
+    display: flex;
+    align-items: center;    
+}
+
+.header_background{
+    background-image: url(./images/backgr.jpg);
+}
+
+.header{
+    padding-top: 47px;
+    padding-left: 107px;
+}
+
+.nav_logo_text{
+    font-family: "Libre Barcode 128 Text";
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.nav_list{
+    display: flex;
+    padding-left: 190px;
+}
+
+.nav_list_item{
+    padding-right: 100px;
+}
+
+
+.nav_list_text{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.nav_list_text:hover{
+    color: gray;
+}
+
+.header_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list{
+    margin-top: 164px;
+}
+
+.header_list_title{
+    font-family: 'Kenia';
+    font-size: 150px;
+    line-height: 150px;
+}
+
+.header_list_text{
+    margin-top: 175px;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.header_images{
+    padding-top: 5px;
+}
+
+.header_img_phone{
+    height: 730px;
+    position: relative;
+    z-index: 1;
+}
+
+.header_img_kabel{
+    padding-left: 45px;
+    position: relative;
+    z-index: 0;
+}
+
+.music{
+    background: #D53005;
+    height: 1024px;
+}
+
+.title{
+    padding-top: 83px;
+    padding-left: 123px;
+}
+
+.title_text{
+    font-family: "Karla";
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.music_main{
+    display: flex;
+    justify-content: right;
+}
+
+.music_refs{
+    position: relative;
+    z-index: 1;
+    padding-top: 267px;
+    left: 66px;
+}
+
+.music_img{
+    position: relative;
+    z-index: 0;
+    padding-top: 61px;
+}
+
+.music_ref_item{
+    padding-bottom: 88px;
+}
+
+.music_button{
+    width: 382px;
+    height: 83px;
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    mix-blend-mode: normal;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5), -4px -4px 30px rgba(255, 255, 255, 0.1);
+}
+
+.button_text:hover{
+    color:rgb(223, 217, 217);
+    font-size: 30px;
+}
+
+.button_text{
+    font-family: "Karla";
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+}
+
+.about{
+    background: linear-gradient(180deg, #D53005 0%, black 5%);
+    height: 1024px;
+}
+
+.about_main_text{
+    text-align: center;
+    padding-top: 358px;
+}
+
+.store{
+    background-color: #D53005;
+    height: 1024px;
+}
+
+.store_main{
+    display: flex;
+}
+
+.store_textpart{
+    margin-top: 136px;
+}
+
+.store_buttons{
+    margin-left: 110px;
+}
+
+.windows{
+    background: black;
+    color: white;
+}
+
+.macos{
+    background: white;
+    color: black
+}
+
+.store_button>button{
+    width: 240px;
+    height: 60px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    margin-bottom: 48px;
+}
+
+.store_button_text{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.store_button_text:hover{
+    color:rgb(231, 90, 24);
+}
+
+.store_text_title_text{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.store_text_title{
+    margin-top: 135px;
+    width: 419px;
+    height: 28px;
+    margin-left: 25px;
+}
+
+.store_text_main{
+    text-align: center;
+    margin-left: 15px;
+    width: 431px;
+    height: 110px;
+}
+
+.store_text_main_text{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.store_text_ref{
+    color: black;
+    text-decoration: underline;
+}
+
+.store_text_ref:hover{
+    color: blue;
+}
+
+.store_text_ref:visited{
+    color: purple;
+}
+
+
+.store_img{
+    position: relative;
+    z-index: 0;
+    padding-top: 51px;
+    right: 100px;
+}
+
+footer{
+    background: linear-gradient(180deg, #D53005 0%, black 5%);
+}
+
+.footer_container{
+    height: 536px;
+}
+
+.footer_lists{
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-around;
+    margin-left: 400px;
+}
+
+.footer_list{
+    margin-bottom: 56px;
+}
+
+.main_text{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+li{
+    padding-bottom: 20px;
+}
+
+.add_text{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.footer_end{
+    margin-left: 110px;
+}
+
+.footer_title_text{
+    font-family: 'Kenia';
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.footer_copyright{
+    display: flex;
+}
+
+.footer_copyright>p{
+    padding-right: 99px;
+}
+
+.footer_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
